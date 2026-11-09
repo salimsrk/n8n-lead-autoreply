@@ -58,7 +58,10 @@
           "name": "Gemini API Key (x-goog-api-key)"
         }
       },
-      "onError": "continueRegularOutput"
+      "onError": "continueRegularOutput",
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
     },
     {
       "id": "4",
