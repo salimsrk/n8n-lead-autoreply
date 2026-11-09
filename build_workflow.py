@@ -66,7 +66,7 @@ nodes = [
      "position": [440, 300],
      "parameters": {
          "method": "POST",
-         "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+         "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
          "authentication": "genericCredentialType", "genericAuthType": "httpHeaderAuth",
          "sendBody": True, "specifyBody": "json", "jsonBody": GEMINI_BODY, "options": {"timeout": 30000}},
      "credentials": {"httpHeaderAuth": {"id": "", "name": "Gemini API Key (x-goog-api-key)"}},
